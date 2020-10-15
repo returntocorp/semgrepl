@@ -36,6 +36,21 @@ The results of prior queries can then be used to customize future ones.
 
 ## Getting Set Up
 
+### Using Docker
+
+Build the docker image using:
+`docker build -t semgrepl .`
+
+Run the docker container using:
+`docker run --rm -p 8888:8888 semgrepl`
+
+This will start a Jupyter Notebook where you can use `semgrepl`.
+
+Try setting the target to `..` to run it on itself.
+
+
+### Manual
+
 Python package dependencies can be installed using
 `pip3 install -r requirements.txt`.
 
